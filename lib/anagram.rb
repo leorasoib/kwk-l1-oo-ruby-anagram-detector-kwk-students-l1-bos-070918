@@ -1,7 +1,7 @@
-# Your code goes here!
+
 class Anagram
-  attr_reader :input 
-  def initialize(input = 'default')
+  attr_accessor :input 
+  def initialize(input)
     @input = input 
   end 
 def match(word_array)
